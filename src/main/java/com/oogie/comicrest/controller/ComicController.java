@@ -50,7 +50,7 @@ public class ComicController {
         });
     }
 
-    @DeleteMapping("/employees/{id}")
+    @DeleteMapping("/comiclist/{id}")
     void deleteCredentials(@PathVariable Integer id) {
         repository.deleteById(id);
     }
